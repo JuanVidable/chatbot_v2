@@ -1,0 +1,161 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492615586306@s.whatsapp.net',
+    fromMe: false,
+    id: 'BFF07D3D544129960F07E93D6579CBF7',
+    participant: undefined
+  },
+  messageTimestamp: 1721829508,
+  pushName: 'Juan Vidable',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '¡Hola! Quiero más información.',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '¡Hola! Quiero más información.',
+  from: '5492615586306'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6e0f7dca-382b-4509-af6b-31a9716351ea',
+  keyword: 'key_0b6f1b4d-35db-4f11-9674-fc820d6c7940',
+  answer: '¡Hola! Me presento: mi nombre es Pilar, soy la asistente de _*Pi Real Estate*_.\n' +
+    '\n' +
+    'Para empezar, ¿Podrías indicarme tu *nombre* por favor? ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '09c56d68ea61eb7f4c2f8b0160fd5786'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492615586306@s.whatsapp.net',
+    fromMe: false,
+    id: 'AE256787EA0394EE6DC87F9B80088DB4',
+    participant: undefined
+  },
+  messageTimestamp: 1721829516,
+  pushName: 'Juan Vidable',
+  broadcast: false,
+  message: Message {
+    conversation: 'j',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'j',
+  from: '5492615586306'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0ccac424-085f-43e5-9ad6-dcc7c1e2486d',
+  keyword: 'ans_6e0f7dca-382b-4509-af6b-31a9716351ea',
+  answer: '¿Que buscas con tu inversión?\n\n1) Inversión 💰\n2) Vivienda 🏠',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b0ca5a9b3b3646900002a2dbcb43b79a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492615586306@s.whatsapp.net',
+    fromMe: false,
+    id: 'CFF0D1E4B2256B6766CA7FB88433B2AC',
+    participant: undefined
+  },
+  messageTimestamp: 1721829520,
+  pushName: 'Juan Vidable',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492615586306'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492615586306@s.whatsapp.net',
+    fromMe: false,
+    id: '05644CB5C52A007D77F2FFC310A51196',
+    participant: undefined
+  },
+  messageTimestamp: 1721829528,
+  pushName: 'Juan Vidable',
+  broadcast: false,
+  message: Message {
+    conversation: 'retroceder',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'retroceder',
+  from: '5492615586306'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c2ee016b-5037-494b-ac22-9ca022fcdca5',
+  keyword: 'key_6c72e118-d494-4ca0-b82e-6c8a63fe522c',
+  answer: '¿Que buscas con tu inversión?\n\n1) Inversión 💰\n2) Vivienda 🏠',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e8ead36465cc3eb3582258dd530fdddf'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492615586306@s.whatsapp.net',
+    fromMe: false,
+    id: '36629FC3C2E731910A7BDF509056E0D1',
+    participant: undefined
+  },
+  messageTimestamp: 1721829531,
+  pushName: 'Juan Vidable',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5492615586306'
+}
