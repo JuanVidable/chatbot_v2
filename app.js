@@ -1,4 +1,4 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -195,7 +195,7 @@ const flowInmob = addKeyword("Hola, estoy interesado en sumarme a la red comerci
 
 
 
-const flowPrincipal = addKeyword(['¡Hola! Quiero más información.', '¡Hola! Vengo de su Landing Page y quiero más información.', '¡Hola! Vengo de su página web y quiero más información.'])
+const flowPrincipal = addKeyword(EVENTS.WELCOME)
     .addAnswer(['¡Hola! Me presento: mi nombre es Pilar, soy la asistente de _*Pi Real Estate*_.',
         '',
         'Para empezar, ¿Podrías indicarme tu *nombre* por favor? ',
