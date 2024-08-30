@@ -58,6 +58,39 @@ const flowPrincipalCopia = addKeyword("Retroceder")
 
 )
 
+
+const flowAnfitrion2 = addKeyword(['anfitrion', 'anfitrión', 'anf'])
+    
+    .addAnswer(
+    [
+        'El _*Edificio Anfitrión*_ es un proyecto inmobiliario *único* y *exclusivo* para alquiler temporario, ubicado en Mendoza - Argentina, Capital Internacional del Vino 🍷. Se encuentra en el corazón de la Quinta Sección, a metros del Parque Gral San Martín.',
+    ],
+)
+    .addAnswer(
+        '*Anfitrión* es un edificio cuyos departamentos podrán ser alquilados bajo la modalidad de *alquiler temporario* (ideal a través de Airbnb), lo que asegura una *rentabilidad en dólares*; por ejemplo, cada departamento puede ser dividido en 2 unidades independientes sin necesidad de ningún tipo de construcción adicional, lo que le brinda al inversor la posibilidad de maximizar la rentabilidad del alquiler 💰. La rentabilidad estimada por alquiler temporario es del *14,9%* - contra un *4,1%* que ofrece un alquiler tradicional -  y la rentabilidad patrimonial estimada es del *49%*.',
+    )
+    .addAnswer(
+        'Además *Anfitrión* contará con una innovadora cañería de vino en cada departamento, lo que lo convierte en el primer edificio en el mundo con este sistema. Contará también con un *viñedo en terraza*, *cavas de vino subterráneas*, *SUM* y *exclusivo rooftop*, y *galería de objetos*.',
+    )
+    .addAnswer(
+    [
+        'A continuación, te envío un archivo con información de la empresa y otro archivo con información de relevancia del proyecto. Quedo a total disposición por cualquier inquietud o consulta que tengas.',
+        '',
+        '-Link de nuestro *video institucional*: https://pireal.com.ar/anfitrionlp/wp-content/uploads/2024/02/Video-Institucional-Pi-Real-Estate_H.mp4',
+        '',
+        '-Link del *Brochure*: https://pireal.com.ar/anfitrionlp/wp-content/uploads/2024/02/Anfitrion-Brochure-corto-2024.pdf',
+
+        '',
+        'Un *asesor comercial* te contactará lo *antes posible* para darte más detalles sobre esta increíble oportunidad de inversión. Gracias por contactarte con *Pi Real Estate*',
+        '',
+        
+    ],
+    null,
+    null,
+    [flowDespedida]
+    
+)
+
 const flowAndro = addKeyword(['andro', '2'])
     .addAnswer('¡Excelente elección! Paso a contarte un poco más sobre esta oportunidad de vivienda')
     .addAnswer(
@@ -68,28 +101,33 @@ const flowAndro = addKeyword(['andro', '2'])
         '',
         'Un asesor se pondrá en contacto lo antes posible para brindarte más información y sacarte las dudas. Gracias por comunicarte con *Pi Real Estate*.',
         '',
-        'Si querés volver a ver otros proyectos escribí _*Retroceder*_.'
+        'Si querés ver otro proyecto escribí _*Anfitrión*_.'
     ],
     null,
     null,
-    [flowPrincipalCopia, flowDespedida]
+    [flowDespedida, flowAnfitrion2]
 )
 
-const flowDistintxs = addKeyword(['3', 'distintxs'])
-.addAnswer(
+
+
+
+
+
+const flowAndro2 = addKeyword(['andro', '2'])
+   
+    .addAnswer(
     [
-        'Te mandamos nuestro brochure para que tengas mas información acerca de este innovador proyecto en Barcelona, España.',
+        'Te mandamos nuestro brochure para que tengas más información acerca de este innovador proyecto para solterxs en Mendoza, Argentina llamado _*Andro*_.',
         '',
-        '-Link: https://pireal.com.ar/anfitrionlp/wp-content/uploads/2024/02/Distintxs-brochure.pdf',
+        '-Link: https://pireal.com.ar/anfitrionlp/wp-content/uploads/2024/02/Andro-Brochure-2024.pdf',
         '',
-        'Un asesor se estará contactando lo antes posible por _*Distintxs*_.',
+        'Un asesor se pondrá en contacto lo antes posible para brindarte más información y sacarte las dudas. Gracias por comunicarte con *Pi Real Estate*.',
         '',
-        'Gracias por tu paciencia.',
-        'Si querés volver a ver otros proyectos escribí _*Retroceder*_.'
+        
     ],
     null,
     null,
-    [flowPrincipalCopia, flowDespedida]
+    [flowDespedida]
 )
 
 const flowAnfitrion = addKeyword(['anfitrion', 'anfitrión', 'anf', 'anfitron', '1', '1)'])
@@ -116,82 +154,13 @@ const flowAnfitrion = addKeyword(['anfitrion', 'anfitrión', 'anf', 'anfitron', 
         '',
         'Un *asesor comercial* te contactará lo *antes posible* para darte más detalles sobre esta increíble oportunidad de inversión. Gracias por contactarte con *Pi Real Estate*',
         '',
-        'Si querés volver a ver otros proyectos escribí _*Retroceder*_.'
+        'Si querés ver otro proyecto escribí _*Andro*_.'
     ],
     null,
     null,
-    [flowAndro, flowDistintxs, flowDespedida, flowPrincipalCopia]
+    [flowAndro2, flowDespedida]
     
 )
-
-
-
-
-const flowVeganians = addKeyword(['1', 'veganians'])
-.addAnswer(
-    [
-
-        '¡Genial! Un asesor se estará contactando lo antes posible por _*Veganians*_.',
-        '',
-        'Gracias por tu paciencia.',
-        '',
-        'Si querés volver a ver otros proyectos escribí _*Retroceder*_.'
-    ],
-    null,
-    null,
-    [flowPrincipalCopia, flowDespedida]
-)
-
-const flowTorreFuerte = addKeyword(['2', 'Torrefuerte', 'torre fuerte'])
-.addAnswer(
-    [
-        '¡Genial! Un asesor se estará contactando lo antes posible por _*Torre Fuerte*_.',
-        '',
-        'Gracias por tu paciencia.',
-        '',
-        'Si querés volver a ver otros proyectos escribí _*Retroceder*_.'
-    ],
-    null,
-    null,
-    [flowPrincipalCopia, flowDespedida]
-)
-
-
-
-
-
-const flowOtros = addKeyword('Quiero ver otros proyectos')
-.addAnswer(
-    [
-        'Otros proyectos',
-        '',
-        '*1) Veganians* - Edificio Vegano 🌱 (Barcelona)',
-        '*2) Torre Fuerte* - Vive lo alto ☁️ - Finalizado (Mendoza)',
-        '*3) Volver*'
-    ],
-    {capture:true},
-    
-        async (ctx, {gotoFlow, fallBack}) => {
-            
-            if(ctx.body==1){
-                
-                return gotoFlow(flowVeganians)
-            }
-            else if(ctx.body==2){
-                return gotoFlow(flowTorreFuerte)
-            }
-            else if(ctx.body==3){
-                return gotoFlow(flowPrincipalCopia)
-            }
-            else{
-                return fallBack('Respuesta Inválida, intente nuevamente ingresando un solo número, por ejemplo 1.')
-            }
-        }
-)
-
-const flowInmob = addKeyword("Hola, estoy interesado en sumarme a la red comercial de Pi Real Estate.")
-    .addAnswer("¡Hola! ¡Gracias por tu interés en ser parte de la red de comercialización de Pi Real Estate! Estamos encantados de recibir tu mensaje. Por favor, déjanos tu nombre y correo electrónico para que podamos ponernos en contacto lo antes posible. ¡Saludos!")
-
 
 
 
