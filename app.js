@@ -101,7 +101,7 @@ const flowAndro = addKeyword(['andro', '2'])
         '',
         'Un asesor se pondrá en contacto lo antes posible para brindarte más información y sacarte las dudas. Gracias por comunicarte con *Pi Real Estate*.',
         '',
-        'Si querés ver otro proyecto escribí _*Anfitrión*_.'
+        'Si querés ver otro proyecto de inversión 💰 escribí _*Anfitrión*_.'
     ],
     null,
     null,
@@ -154,7 +154,7 @@ const flowAnfitrion = addKeyword(['anfitrion', 'anfitrión', 'anf', 'anfitron', 
         '',
         'Un *asesor comercial* te contactará lo *antes posible* para darte más detalles sobre esta increíble oportunidad de inversión. Gracias por contactarte con *Pi Real Estate*',
         '',
-        'Si querés ver otro proyecto escribí _*Andro*_.'
+        'Si querés ver nuestro otro proyecto de vivienda 🏠 escribí _*Andro*_.'
     ],
     null,
     null,
